@@ -31,16 +31,16 @@ public class Demo2_Post_Request {
 	@Test
 	public void postTest() {
 		given()
-		.contentType("application/json")
-		.body(map)
+			.contentType("application/json")
+			.body(map)
 		.when()
-		.post()
+			.post()
 		.then()
-		.statusCode(200)
-		.and()
-		.body("SuccessCode",equalTo("OPERATION_SUCCESS"))
-		.and()
-		.body("Message",equalTo("Operation completed successfully"));
+			.statusCode(200)
+			.and()
+			.body("SuccessCode",equalTo("OPERATION_SUCCESS"))
+			.and()
+			.body("Message",equalTo("Operation completed successfully"));
 		
 	}
 }

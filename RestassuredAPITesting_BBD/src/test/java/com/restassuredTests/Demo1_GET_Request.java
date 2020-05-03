@@ -10,8 +10,7 @@ import org.testng.annotations.Test;
  		get, post, put, delete
  then()		
  		validate status code, extract response, extract headers cookies and response body
- * */
-
+ */
 public class Demo1_GET_Request {
 	
 	@Test

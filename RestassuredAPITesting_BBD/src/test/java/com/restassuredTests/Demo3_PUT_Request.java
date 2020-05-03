@@ -32,13 +32,12 @@ public class Demo3_PUT_Request {
 	@Test
 	public void postTest() {
 		given()
-		.contentType("application/json")
-		.body(map)
+			.contentType("application/json")
+			.body(map)
 		.when()
-		.put()
+			.put()
 		.then()
-		.statusCode(200)
-		.log().all();
-		
+			.statusCode(200)
+			.log().all();
 	}
 }
