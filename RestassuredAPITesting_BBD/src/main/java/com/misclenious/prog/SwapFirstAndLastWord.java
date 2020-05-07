@@ -4,6 +4,7 @@ public class SwapFirstAndLastWord {
 
 	public static void main(String[] args) {
 		String string ="A friEND IN NEED is A friend INDEED";
+		//System.out.println(string.replace('A', 'O'));
 		String strArr[] = string.split(" ");
 		int len=strArr.length;
 		System.out.println(len);
